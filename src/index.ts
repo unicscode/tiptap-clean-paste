@@ -1,11 +1,5 @@
-import { Extension } from '@tiptap/core'
+import { CleanPaste } from "./clean-paste";
 
-const MyExtension = Extension.create({
-  name: 'MyExtension',
+export * from "./clean-paste";
 
-  // do your stuff here
-})
-
-export { MyExtension }
-
-export default MyExtension
+export default CleanPaste;
