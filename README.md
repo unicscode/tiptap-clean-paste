@@ -16,7 +16,7 @@ yarn add tiptap-clean-paste
 
 To use the tiptap-clean-paste Extension in your Tiptap editor, import it and add it to your extensions list:
 
-```bash
+```jsx
 import { CleanPaste } from 'tiptap-clean-paste';
 # or
 import  CleanPaste  from 'tiptap-clean-paste';
