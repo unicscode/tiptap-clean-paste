@@ -24,9 +24,8 @@ import CleanPaste from "tiptap-clean-paste";
 // Using the default regex pattern
 const extensions = [CleanPasteExtension];
 
-// Using the default regex pattern
-
-const customRegex = /[^\x20-\x7E\s]/g; // Define your custom regex pattern
+// Or define your custom regex pattern
+const customRegex = /[^\x20-\x7E\s]/g;
 const extensions = [
   CleanPasteExtension.configure({
     regexPattern: customRegex, // customize the regex pattern used for cleaning pasted text
