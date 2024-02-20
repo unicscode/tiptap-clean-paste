@@ -17,30 +17,26 @@ yarn add tiptap-clean-paste
 To use the tiptap-clean-paste Extension in your Tiptap editor, import it and add it to your extensions list:
 
 ```jsx
-import { CleanPaste } from 'tiptap-clean-paste';
-# or
-import  CleanPaste  from 'tiptap-clean-paste';
+import { CleanPaste } from "tiptap-clean-paste";
+// or
+import CleanPaste from "tiptap-clean-paste";
 
-# Using the default regex pattern
-const extensions = [
-  CleanPasteExtension
-];
+// Using the default regex pattern
+const extensions = [CleanPasteExtension];
 
-# Using the default regex pattern
+// Using the default regex pattern
 
 const customRegex = /[^\x20-\x7E\s]/g; // Define your custom regex pattern
 const extensions = [
   CleanPasteExtension.configure({
-      // custom options
-      regexPattern: customRegex, // customize the regex pattern used for cleaning pasted text
-    }),
+    regexPattern: customRegex, // customize the regex pattern used for cleaning pasted text
+  }),
 ];
 
 const TiptapEditor = () => {
   const editor = useEditor({
     extensions,
-    content:'<p>Hello World!</p>',
+    content: "<p>Hello World!</p>",
   });
-}
-
+};
 ```
