@@ -1,10 +1,28 @@
 {
   "name": "tiptap-clean-paste",
   "version": "0.0.1",
-  "description": "",
+  "description": "extenion for the Tiptap editor that provides clean paste functionality, allowing users to strip unwanted content like formatting and styles from pasted text ",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unicscode/tiptap-clean-paste"
+  },
+  "keywords": [
+    "tiptap",
+    "editor",
+    "clean",
+    "paste",
+    "plugin",
+    "extension"
+  ],
+  "author": "Koceila LOUNAS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unicscode/tiptap-clean-paste/issues"
+  },
+  "homepage": "https://github.com/unicscode/tiptap-clean-paste",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && rollup -c",
