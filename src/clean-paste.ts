@@ -19,7 +19,6 @@ export const CleanPaste = Extension.create({
         key: new PluginKey("cleanPaste"),
         props: {
           handlePaste: (view, event) => {
-            console.log(this.options);
             const clipboardData = event.clipboardData;
             if (!clipboardData) return false;
 
