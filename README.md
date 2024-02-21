@@ -8,8 +8,6 @@ You can install the Tiptap Clean Paste Extension via npm or yarn:
 
 ```bash
 npm install tiptap-clean-paste
-# or
-yarn add tiptap-clean-paste
 ```
 
 ## Installation
