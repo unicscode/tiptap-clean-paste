@@ -4,7 +4,7 @@ The Tiptap Clean Paste Extension is a plugin for [Tiptap](https://tiptap.dev/) t
 
 ## Installation
 
-You can install the Tiptap Clean Paste Extension via npm or yarn:
+You can install the Tiptap Clean Paste Extension via npm:
 
 ```bash
 npm install tiptap-clean-paste
