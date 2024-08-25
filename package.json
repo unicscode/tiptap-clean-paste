@@ -1,6 +1,6 @@
 {
   "name": "tiptap-clean-paste",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "extenion for the Tiptap editor that provides clean paste functionality, allowing users to strip unwanted content like formatting and styles from pasted text ",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
