@@ -20,12 +20,12 @@ import { CleanPaste } from "tiptap-clean-paste";
 import CleanPaste from "tiptap-clean-paste";
 
 // Using the default regex pattern
-const extensions = [CleanPasteExtension];
+const extensions = [CleanPaste];
 
 // Or define your custom regex pattern
 const customRegex = /[^\x20-\x7E\s]/g;
 const extensions = [
-  CleanPasteExtension.configure({
+  CleanPaste.configure({
     regexPattern: customRegex, // customize the regex pattern used for cleaning pasted text
   }),
 ];
